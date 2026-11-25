@@ -1,0 +1,9 @@
+SpeechRecognition
+PyAudio
+requests
+psutil
+pyautogui
+playsound==1.2.2
+Pillow
+pyperclip  
+pywhatkit
