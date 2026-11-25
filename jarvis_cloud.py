@@ -617,6 +617,7 @@ def handle_command(command):
       "go to sleep" in command or "exit" in command or "stop listening" in command
   ):
     speak_with_polly("Powering down all systems. Have a good day, sir.")
+    time.sleep(1.5)
     return False
 
   else:
